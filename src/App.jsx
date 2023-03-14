@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <h1>React App</h1>
+      <h1>My React App!!</h1>
       {productos.map((producto, i) => (
         <ProductItem producto={producto} key={producto.id} />
       ))}
